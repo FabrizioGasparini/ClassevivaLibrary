@@ -12,4 +12,4 @@ while inp != "":
     utente.print_prettify_output(richiesta)
     
 
-azioni = {"bacheca": RequestURLs.NOTICE_BOARD}
+azioni = {"bacheca": RequestURLs.NOTICE_BOARD_URL, "materie": RequestURLs.SUBJECTS_URL, "lezioni": RequestURLs.TODAY_LESSONS_URL, "card": RequestURLs.CARD_URL, "libri":RequestURLs.SCHOOLBOOKS_URL}
