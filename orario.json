@@ -1,0 +1,230 @@
+{
+    "classi": {
+        "3B INFORMATICA": {
+            "lun": [
+                {
+                    "materia": "Sistemi e Reti",
+                    "insegnanti": [
+                        "Barberio C."
+                    ],
+                    "aula": "Blu 18",
+                    "durata": 1
+                },
+                {
+                    "materia": "Telecomunicazioni",
+                    "insegnanti": [
+                        "Massaro C."
+                    ],
+                    "aula": "C18 - LAB",
+                    "durata": 1
+                },
+                {
+                    "materia": "Scienze Motorie",
+                    "insegnanti": [
+                        "Benassi D."
+                    ],
+                    "aula": "Palestra Palazzetto",
+                    "durata": 2
+                },
+                {
+                    "materia": "Matematica",
+                    "insegnanti": [
+                        "Retino' O."
+                    ],
+                    "aula": "Blu 05",
+                    "durata": 1
+                },
+                {
+                    "materia": "Inglese",
+                    "insegnanti": [
+                        "Binacchi R."
+                    ],
+                    "aula": "Blu 05",
+                    "durata": 1
+                }
+            ],
+            "mar": [
+                {
+                    "materia": "Matematica",
+                    "insegnanti": [
+                        "Retino' O."
+                    ],
+                    "aula": "Blu 05",
+                    "durata": 1
+                },
+                {
+                    "materia": "Sistemi e Reti",
+                    "insegnanti": [
+                        "Barberio C.",
+                        "Contursi C."
+                    ],
+                    "aula": "C18 - LAB",
+                    "durata": 1
+                },
+                {
+                    "materia": "TEPSIT",
+                    "insegnanti": [
+                        "Ferrari I. I."
+                    ],
+                    "aula": "C12 - LAB",
+                    "durata": 1
+                },
+                {
+                    "materia": "Inglese",
+                    "insegnanti": [
+                        "Binacchi R."
+                    ],
+                    "aula": "Blu 05",
+                    "durata": 1
+                },
+                {
+                    "materia": "Storia",
+                    "insegnanti": [
+                        "Casini F."
+                    ],
+                    "aula": "Blu 05",
+                    "durata": 2
+                }
+            ],
+            "mer": [
+                {
+                    "materia": "Matematica",
+                    "insegnanti": [
+                        "Retino' O."
+                    ],
+                    "aula": "Blu 05",
+                    "durata": 1
+                },
+                {
+                    "materia": "TEPSIT",
+                    "insegnanti": [
+                        "Ferrari I. I."
+                    ],
+                    "aula": "Blu 05",
+                    "durata": 1
+                },
+                {
+                    "materia": "TEPSIT",
+                    "insegnanti": [
+                        "Ferrari I. I."
+                    ],
+                    "aula": "C11 - LAB",
+                    "durata": 1
+                },
+                {
+                    "materia": "Informatica",
+                    "insegnanti": [
+                        "Gambale S."
+                    ],
+                    "aula": "Blu 05",
+                    "durata": 1
+                },
+                {
+                    "materia": "Telecomunicazioni",
+                    "insegnanti": [
+                        "Massaro C."
+                    ],
+                    "aula": "Blu 17",
+                    "durata": 1
+                }
+            ],
+            "gio": [
+                {
+                    "materia": "Informatica",
+                    "insegnanti": [
+                        "Gambale S.",
+                        "Contursi C."
+                    ],
+                    "aula": "C11 - LAB",
+                    "durata": 2
+                },
+                {
+                    "materia": "Italiano",
+                    "insegnanti": [
+                        "Casini F."
+                    ],
+                    "aula": "Blu 05",
+                    "durata": 2
+                },
+                {
+                    "materia": "Inglese",
+                    "insegnanti": [
+                        "Binacchi R."
+                    ],
+                    "aula": "Blu 05",
+                    "durata": 1
+                }
+            ],
+            "ven": [
+                {
+                    "materia": "Informatica",
+                    "insegnanti": [
+                        "Gambale S."
+                    ],
+                    "aula": "C11 - LAB",
+                    "durata": 1
+                },
+                {
+                    "materia": "Matematica",
+                    "insegnanti": [
+                        "Retino' O."
+                    ],
+                    "aula": "Blu 10",
+                    "durata": 1
+                },
+                {
+                    "materia": "Sistemi e Reti",
+                    "insegnanti": [
+                        "Barberio C."
+                    ],
+                    "aula": "C14",
+                    "durata": 1
+                },
+                {
+                    "materia": "Sistemi e Reti",
+                    "insegnanti": [
+                        "Barberio C.",
+                        "Contursi C."
+                    ],
+                    "aula": "C11 - LAB",
+                    "durata": 1
+                },
+                {
+                    "materia": "Telecomunicazioni",
+                    "insegnanti": [
+                        "Massaro C."
+                    ],
+                    "aula": "Blu 05",
+                    "durata": 1
+                }
+            ],
+            "sab": [
+                {
+                    "materia": "Religione",
+                    "insegnanti": [
+                        "Davolio M."
+                    ],
+                    "aula": "Blu 05",
+                    "durata": 1
+                },
+                {
+                    "materia": "Italiano",
+                    "insegnanti": [
+                        "Casini F."
+                    ],
+                    "aula": "Blu 05",
+                    "durata": 2
+                },
+                {
+                    "materia": "Informatica",
+                    "insegnanti": [
+                        "Gambale S.",
+                        "Contursi C."
+                    ],
+                    "aula": "C11 - LAB",
+                    "durata": 2
+                }
+            ]
+        }
+    }
+}

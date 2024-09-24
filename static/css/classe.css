@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+    background: linear-gradient(45deg, rgb(0, 32, 95) 2.8%, rgb(132, 53, 142) 97.8%);
+
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+
+    font-family: 'Lexend';
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.class_name {
+    text-align: center;
+    color: #fff;
+    font-size: 64px;
+    margin: 25px;
+
+    top: 0;
+    position: absolute;
+}
+
+.table {
+    margin-top: 50px;
+    
+    width: 65%;
+    height: 80%;
+
+    background-color: rgba(135, 97, 206, 0.5);
+    border: 2px solid #fff;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.table .header {
+    width: 100%;
+    flex: .075;
+    
+    background-color: rgb(15, 15, 15);
+    border-radius: 20px 20px 0 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    color: #fff;
+}
+.table .day {
+    flex: 1;
+    text-align: center;
+    font-size: 24px;
+}
+
+.day + .day {
+    border-left: solid 1px white;
+}
+
+.data {
+    width: 100%;
+    flex: .925;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.data .col {
+    flex: 1;
+    height: 96%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col + .col {
+    border-left: solid 1px white;
+}
+
+.col .cell {
+    width: 100%;
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    color: #fff;
+}
+
+.col .cell.double {
+    flex: 2;
+}
+
+.col .sep {
+    width: 80%;
+    border-top: 1px solid white;
+}
+
+.cell .mat {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cell .ins, .cell .aul {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.cell .sep {
+    width: 40%;
+    border-top: 1px solid #aaa;
+}

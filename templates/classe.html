@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+
+    <title>Orario {{classe}}</title>
+    <meta name="description" content="Description">
+
+    <link href="{{url_for('static', filename='css/classe.css')}}" rel="stylesheet">
+    <!-- https://fontawesome.com/search -->
+    <script src="https://kit.fontawesome.com/311c71b442.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <p class="class_name">{{classe}}</p>
+    <div class="table">
+        <div class="header">
+            <div class="day">Lun</div>
+            <div class="day">Mar</div>
+            <div class="day">Mer</div>
+            <div class="day">Gio</div>
+            <div class="day">Ven</div>
+            <div class="day">Sab</div>
+        </div>
+        <div class="data">
+            <div class="col" id="lun"></div>
+            <div class="col" id="mar"></div>
+            <div class="col" id="mer"></div>
+            <div class="col" id="gio"></div>
+            <div class="col" id="ven"></div>
+            <div class="col" id="sab"></div>
+        </div>
+    </div>
+
+    <script>
+        let template = document.getElementById('template')
+
+        let orario = JSON.parse('{{ orario | tojson }}');
+
+        Object.keys(orario).forEach(giorno => {
+            let giornoElement = document.getElementById(giorno)
+            
+            orario[giorno].forEach(function (materia, i) {
+                if(materia.seconda_ora == true) return
+
+                let cell = document.createElement('div')
+                if(materia.durata == 2) cell.className = "cell double"
+                else cell.className = "cell"
+
+                let mat = document.createElement('div')
+                mat.className = 'mat'
+                mat.innerText = materia.materia
+                cell.appendChild(mat)
+
+                let sep = document.createElement('div')
+                sep.className = 'sep'
+                cell.appendChild(sep)
+
+                let ins = document.createElement('div')
+                ins.className = 'ins'
+                ins.innerText = materia.insegnanti
+                cell.appendChild(ins)
+
+                let aul = document.createElement('div')
+                aul.className = 'aul'
+                aul.innerText = materia.aula
+                cell.appendChild(aul)
+
+                giornoElement.appendChild(cell)
+
+                if (orario[giorno].length < 6 || orario[giorno].length - 1 > i) 
+                {
+                    let sep = document.createElement('div')
+                    sep.className = 'sep'
+                    giornoElement.appendChild(sep)
+                }
+
+            })
+
+            if(orario[giorno].length < 6)
+            {
+                let cell = document.createElement('div')
+                cell.className = "cell"
+
+                let sep = document.createElement('div')
+                sep.className = 'sep'
+                cell.appendChild(sep)
+                
+                giornoElement.appendChild(cell)
+            }
+        });
+        
+    </script>
+</body>
+</html>
